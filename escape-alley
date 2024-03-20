@@ -1,0 +1,16 @@
+while True:
+  print("You are in a dark alleyway, do you want to go back or forawrd?")
+  direction = input("> ")
+  if direction == "back":
+    print("You are free of the darkness!! Lets continue on.")
+    print()
+    break
+  elif direction == "forward":
+    print("You have been stabbed by a man with a knife, you died. You will respawn momentarily.")
+    print()
+    continue
+    print()
+  else:
+    print("you found my weak spot and have somehow escaped!! you won!")
+    exit()
+print("BUT you havent escaped yet, you are in a dark alleyway, do you want to go back or forawrd")
